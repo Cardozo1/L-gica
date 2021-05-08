@@ -1,0 +1,89 @@
+
+
+/* NAV */
+.contenedor{
+    width: 85%;
+    margin: 0 auto;
+    user-select: none;
+    
+    
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+.menu .menu-link{
+    list-style: none;
+
+}
+.menu .menu-link a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000000;
+    
+    
+}
+.menu .menu-link a:hover{
+    border-bottom: 5px solid orangered;
+
+}
+
+
+
+
+/* FIN NAV */
+/* ------------------------------------------------------------------------------------------ */
+
+/* LOGO */
+
+span{
+color:orangered;
+font-weight:500;
+
+}
+/* FIN LOGO */
+
+/* -----------------------------------------NAV------------------------------------------------- */
+
+/* NAV */
+
+
+
+/* FIN NAV */
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px){
+.menu{
+    width: 40%;
+    
+}
+}
+@media screen and (max-width: 900px){
+.menu{
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+.menu .menu-link a{
+    font-size: 1.2rem;
+}
+.navegador{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu .menu-link a:hover{
+    border-bottom: none;
+}
+}

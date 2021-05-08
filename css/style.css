@@ -1,0 +1,107 @@
+body{
+    font-family: 'Asap Condensed', sans-serif;
+    
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 15px;
+    background: url(../img/computer.jpg) no-repeat center center/cover;
+}
+@media screen and (max-width: 900px){
+    .banner{
+        height: 45vh;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------
+--------------------------------------------PRODUCTOS---------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+.productos{
+	width: 250px;
+	height: 380px;
+    text-align: center;
+	/* border:1px solid ; */
+	margin: 10px;
+	transition: 200ms all  ease;
+
+	
+
+}
+
+.productos .image{
+	display: flex;
+	justify-content: center;
+	/* margin:  0 auto; */
+	width: 100%;
+	
+	
+}
+.productos:hover{
+	transform: scale(1.1);
+	
+}
+.productos-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.productos-main a{
+    text-decoration: none;
+    color: #000000;
+}
+/* -------------------------------------------------------------------------------------------------------
+--------------------------------------------PRODUCTOS---------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+.pie-de-pagina{
+    width: 100%;
+    height: 20vh;
+    background: #000000;
+    color: #ffffff;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background:rgb(79, 145, 149);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background:rgb(206, 155, 113);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    transform: translateY(100%);
+}
+.intro span{
+    color:#fff;
+    display: inline-block;
+    transform: translateY(100%);
+    
+    
+
+}
+.intro h1{
+    overflow: hidden;
+    font-size: 3rem;
+}
+.texto-intro{
+    text-align: center;
+}
